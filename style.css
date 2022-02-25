@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    background-image: url(../pictures/pbc.png);
+    background-color: black;
+    background-size: 1920px;
+    background-attachment: fixed;
+}
+
+
+/*                   -----------------                   HEADER BLOCK                           -----------------                     */
+
+
+.headerBlockLabel span{
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row wrap;
+
+    font-size: 40pt;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+}
+
+.headerBlock{
+    height: 430px;
+    width: 100%;
+    margin: 0;
+    padding-top: 0px;
+    display: flex;
+}
+
+.headerBlockSearchBar{
+    display: flex;
+    flex-direction: row wrap;
+}
+.headerBlockSearchBar p{
+    margin-top: 361px;      /* increase by 200 px */
+    padding-left: 70px;
+    
+    font-size: 40pt;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.headerBlockSearchBar input[type="search"] {
+    margin-top: 383px;      /* increase by 200 px */
+    margin-left: 30px;
+    padding-left: 10px;
+
+    font-size: 16pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+
+    height: 36px;
+    width: 718px;
+
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgb(245, 238, 238);
+}
+
+.headerProfileLinks ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    
+    margin-top: 370px;      /* increase by 200 px */
+    padding-left: 313px;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 32pt;
+    color: white;
+}
+.headerProfileLinks a{
+    font-size: 20pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+
+    padding-left: 11px;
+    padding-right: 30px;
+}
+
+
+/*                   -----------------                   MAIN BODY                           -----------------                     */
+
+
+.mainBlock{
+    background-color: rgb(245, 238, 238);
+    border-radius: 30px;
+
+    padding-bottom: 50px;
+}
+
+.mainBlockSections ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 200px;
+}
+.mainBlockSections a{
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.mainBlockNewOffers  {
+    margin-top: 100px;
+
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.mainBlockNewOffers span{
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+
+    padding-left: 70px;
+}
+.mainBlockNewOffers ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+    padding-left: 0;
+    
+}
+
+.mainBlockNewOffers a {
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.mainBlockNewOffers img {
+    height: 450px; 
+    width: 450px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+.mainBlockRecommendations {
+    margin-top: 50px;
+
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.mainBlockRecommendations span{
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+    
+    padding-left: 70px;
+}
+.mainBlockRecommendations ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+    padding-left: 0;
+}
+.mainBlockRecommendations a{
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+    
+}
+.mainBlockRecommendations img{
+    height: 450px; 
+    width: 450px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*                   -----------------                   FOOTER                           -----------------                     */
+
+
+.footerBlockLabel span{
+    padding-top: 150px;
+    margin-bottom: 30px;
+    padding-left: 1470px;
+    display: flex;
+    flex-direction: row wrap;
+
+    font-size: 40pt;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+}
