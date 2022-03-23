@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/7099fc28008799.56e41b31e770e.gif);
+    background-color: crimson;
+    background-size: 1920px;
+    background-attachment: fixed;
+}
+
+
+/*                   -----------------                   HEADER BLOCK                           -----------------                     */
+
+.headerBlock{
+    height: 230px;
+    width: 100%;
+    margin: 0;
+    padding-top: 0px;
+    display: flex;
+}
+
+.headerBlockLabel span{
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row wrap;
+
+    font-size: 40pt;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+}
+.headerBlockLabel a{
+  text-decoration: none;
+
+  font-size: 40pt;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: white;
+}
+
+.headerBlockSearchBar{
+    display: flex;
+    flex-direction: row wrap;
+}
+.headerBlockSearchBar p{
+    margin-top: 161px;      /* increase by 200 px */
+    padding-left: 70px;
+
+    font-size: 40pt;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.headerBlockSearchBar input[type="search"] {
+    margin-top: 180px;      /* increase by 200 px */
+    margin-left: 30px;
+    padding-right: 200px;
+    padding-left: 10px;
+
+    font-size: 16pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+
+    height: 39px;
+    width: 970px;
+
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgb(245, 238, 238);
+    outline: none;
+}
+.headerBlockSearchBar input[type="submit"]{
+  position: absolute;
+  margin-left: 1120px;
+  margin-top: 182px;
+
+  font-size: 16pt;
+  font-family: 'Questrial', sans-serif;
+  color: black;
+
+  border-radius: 30px;
+  border-width: 0px;
+  border-color: transparent;
+
+  height: 36px;
+  width: 75px;
+}
+.headerBlockSearchBar input[type="submit"]:hover{
+  cursor: pointer;
+}
+
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.headerProfileLinks ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+    margin-top: 170px;      /* increase by 200 px */
+    padding-left: 113px;
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32pt;
+    color: white;
+}
+.headerProfileLinks a{
+    font-size: 20pt;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+
+    padding-left: 11px;
+    margin-right: 30px;
+}
+
+
+/*                   -----------------                   MAIN BODY                           -----------------                     */
+
+
+.mainBlock{
+    background-color: rgb(245, 238, 238);
+    border-radius: 30px;
+
+    padding-bottom: 50px;
+}
+
+.mainBlockSections ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.mainBlockSections a{
+    font-size: 26pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+/*                   -----------------                   NEW OFFERS BLOCK                           -----------------                     */
+
+.mainBlockNewOffers  {
+    margin-top: 100px;
+
+    font-size: 24pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.mainBlockNewOffers span{
+    font-size: 24pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+
+    padding-left: 70px;
+}
+.mainBlockNewOffers ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+    padding-left: 0;
+
+}
+
+/*                   -----------------                   RECOMENDATIONS BLOCK                           -----------------                     */
+
+.mainBlockRecommendations {
+    margin-top: 50px;
+
+    font-size: 24pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.mainBlockRecommendations span{
+    font-size: 24pt;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    text-decoration: none;
+
+    padding-left: 70px;
+}
+.mainBlockRecommendations ol{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+    padding-left: 0;
+}
+
+/*                   -----------------                   PRODUCT CARDS TEMPLATE                           -----------------                     */
+
+.mainBlockProductCardSample ol{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.mainBlockProductCardSample a{
+  font-size: 18pt;
+  font-family: 'Questrial', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.mainBlockProductCardSample img{
+  height: 500px;
+  width: 450px;
+
+  padding-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+/*                   -----------------                   FOOTER                           -----------------                     */
+
+
+.footerBlockLabel span{
+    padding-top: 400px;
+    margin-bottom: 30px;
+    padding-left: 1470px;
+    display: flex;
+    flex-direction: row wrap;
+
+    font-size: 40pt;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+}
